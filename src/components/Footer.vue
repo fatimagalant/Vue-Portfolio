@@ -47,7 +47,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 /* .social-media-list {
   position: relative;
   font-size: 22px;

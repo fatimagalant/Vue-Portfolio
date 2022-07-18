@@ -26,23 +26,19 @@ export default {
   scroll-behavior: smooth;
 }
 #Landing {
-  background-image: url("https://i.postimg.cc/sXRgSxQg/giphy-gif-cid-790b7611ee22a7bf2e5fa8cf21e477c10fb419fed2f4082f-rid-giphy.gif");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-  z-index: -1;
+  background: linear-gradient(rgba(0, 0, 0, 0.242), rgba(0, 0, 0, 0.242)),
+    url(https://i.postimg.cc/BQwrtsNf/emile-perron-xr-VDYZRGdw4-unsplash.jpg);
+min-height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+background-attachment: fixed;
 }
-@media screen and (max-width: 896px) {
+/* @media screen and (max-width: 896px) {
   #Landing {
-    background-position: center;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+background-size: ;
   }
-}
+} */
 h1 {
   color: white;
   font-family: "Noto Serif Display", monospace;

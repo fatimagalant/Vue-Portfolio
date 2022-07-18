@@ -20,7 +20,35 @@
     <router-link class="items" @click="toggleNav()" to="/contact"
       >Contact</router-link
     >
-
+    <hr>
+ <a
+          href="https://www.linkedin.com/in/fatima-galant-778944228/"
+          target="_blank"
+          class="btn btn-light"
+          style="border-radius: 50%"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+           <a
+          href="https://www.github.com/fatimagalant"
+          target="_blank"
+          class="btn btn-light"
+          style="border-radius: 50%"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+            <a
+          href="https://www.codepen.io/fatimagalant"
+          target="_blank"
+          class="btn btn-light"
+          style="border-radius: 50%"
+          ><i class="fa-brands fa-codepen"></i
+        ></a>
+         <a
+          href="https://www.instagram.com/fatimagalant_"
+          target="_blank"
+          class="btn btn-light"
+          style="border-radius: 50%"
+          ><i class="fa-brands fa-instagram"></i></a
+        >
     <button
       id="close-btn"
       class="text-light"
@@ -44,6 +72,9 @@ export default {
 };
 </script>
 <style scoped>
+nav{
+  align-items: start;
+}
 #close-btn {
   margin-left: 19rem;
   margin-top: 3rem;
@@ -60,19 +91,20 @@ export default {
   z-index: 90;
   font-size: 2rem;
   position: fixed;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  /* right: 10px; */
+  padding-left: 30px;
   border: none;
   background: transparent;
   transform-origin: 0 0;
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
 }
 fa-solid {
   width: 8rem;
   height: auto;
   transition: all ease-in-out 0.5s;
 }
-#goat-img:hover {
+fa-solid:hover {
   filter: invert();
 }
 .items {
@@ -93,8 +125,8 @@ fa-solid {
   font-family: fancy;
   position: fixed;
   top: -150%;
-  /* left: 0; */
-  right: 0;
+  left: 0;
+  /* right: 0; */
   height: 105vh;
   background-color: black;
   display: flex;
@@ -158,6 +190,9 @@ fa-solid {
     transform-origin: 0 0;
     transform: rotate(90deg);
   }
+a:hover{
+  filter: invert;
+}
 }
 .nav-links.active {
   top: 0;
