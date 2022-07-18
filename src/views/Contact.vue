@@ -1,9 +1,7 @@
 <template>
-  <section id="about"></section>
-  <div class="about bg-dark text-light">
-    <h1>About</h1>
+  <div class="contact">
+    <h1>This is a contact page</h1>
   </div>
-  <Footer />
 </template>
 <script>
 import Footer from "../components/Footer.vue";
@@ -13,4 +11,3 @@ export default {
   },
 };
 </script>
-<style scoped></style>
