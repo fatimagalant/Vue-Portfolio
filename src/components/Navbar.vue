@@ -208,17 +208,20 @@ fa-brands:hover {
 }
 @media only screen and (max-width: 600px) {
   #close-btn {
-    margin-left: 21rem;
+    margin-left: 27rem;
     margin-top: 2rem;
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
   #menu-btn {
     position: fixed;
-    right: -2rem;
-    font-size: 1rem;
+    color: white;
+    /* right: -2rem;
+    font-size: 1rem; */
   }
   .items {
     font-size: 2rem;
+      font-family: 'Montserrat', sans-serif;
+      align-items: center;
   }
 }
 </style>
