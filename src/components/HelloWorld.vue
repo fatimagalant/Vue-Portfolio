@@ -8,14 +8,7 @@
   <section id="about"></section>
 </template>
 
-<script>
-export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
-};
-</script>
+<script></script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -28,17 +21,16 @@ export default {
 #Landing {
   background: linear-gradient(rgba(0, 0, 0, 0.242), rgba(0, 0, 0, 0.242)),
     url(https://i.postimg.cc/BQwrtsNf/emile-perron-xr-VDYZRGdw4-unsplash.jpg);
-min-height: 100vh;
-background-repeat: no-repeat;
-background-position: center;
-background-size: 100%;
-background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
-/* @media screen and (max-width: 896px) {
+@media screen and (max-width: 896px) {
   #Landing {
-background-size: ;
+    height: 50%;
   }
-} */
+}
 h1 {
   color: white;
   font-family: "Noto Serif Display", monospace;

@@ -11,6 +11,9 @@
     <router-link class="items" @click="toggleNav()" to="/about"
       >About</router-link
     >
+    <router-link class="items" @click="toggleNav()" to="/resume"
+      >Resume</router-link
+    >
     <router-link class="items" @click="toggleNav()" to="/projects"
       >Projects</router-link
     >
@@ -20,35 +23,37 @@
     <router-link class="items" @click="toggleNav()" to="/contact"
       >Contact</router-link
     >
-    <hr>
- <a
-          href="https://www.linkedin.com/in/fatima-galant-778944228/"
-          target="_blank"
-          class="btn btn-light"
-          style="border-radius: 50%"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-           <a
-          href="https://www.github.com/fatimagalant"
-          target="_blank"
-          class="btn btn-light"
-          style="border-radius: 50%"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-            <a
-          href="https://www.codepen.io/fatimagalant"
-          target="_blank"
-          class="btn btn-light"
-          style="border-radius: 50%"
-          ><i class="fa-brands fa-codepen"></i
-        ></a>
-         <a
-          href="https://www.instagram.com/fatimagalant_"
-          target="_blank"
-          class="btn btn-light"
-          style="border-radius: 50%"
-          ><i class="fa-brands fa-instagram"></i></a
-        >
+    <hr style="width: 100%; text-align: left; margin-left: 0" />
+    <div class="socials">
+      <a
+        href="https://www.linkedin.com/in/fatima-galant-778944228/"
+        target="_blank"
+        class="btn btn-light"
+        style="border-radius: 50%"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a
+        href="https://www.github.com/fatimagalant"
+        target="_blank"
+        class="btn btn-light"
+        style="border-radius: 50%"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a
+        href="https://www.codepen.io/fatimagalant"
+        target="_blank"
+        class="btn btn-light"
+        style="border-radius: 50%"
+        ><i class="fa-brands fa-codepen"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/fatimagalant_"
+        target="_blank"
+        class="btn btn-light"
+        style="border-radius: 50%"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+    </div>
     <button
       id="close-btn"
       class="text-light"
@@ -72,8 +77,8 @@ export default {
 };
 </script>
 <style scoped>
-nav{
-  align-items: start;
+nav {
+  align-items: center;
 }
 #close-btn {
   margin-left: 19rem;
@@ -99,12 +104,12 @@ nav{
   transform-origin: 0 0;
   /* transform: rotate(90deg); */
 }
-fa-solid {
-  width: 8rem;
+fa-brands {
+  width: 10rem;
   height: auto;
   transition: all ease-in-out 0.5s;
 }
-fa-solid:hover {
+fa-brands:hover {
   filter: invert();
 }
 .items {
@@ -133,7 +138,7 @@ fa-solid:hover {
   flex-flow: column nowrap;
   align-items: flex-start;
   transition: top 0.3s linear;
-  font-family: "Noto Serif Display", monospace;
+  font-family: "Montserrat", sans-serif;
 }
 @media screen and (max-width: 928px) {
   .nav-links {
@@ -190,9 +195,13 @@ fa-solid:hover {
     transform-origin: 0 0;
     transform: rotate(90deg);
   }
-a:hover{
-  filter: invert;
-}
+  .align {
+    display: flex;
+    flex-direction: row;
+  }
+  a:hover {
+    filter: invert;
+  }
 }
 .nav-links.active {
   top: 0;
