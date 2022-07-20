@@ -25,34 +25,44 @@
     >
     <hr style="width: 100%; text-align: left; margin-left: 0" />
     <div class="socials">
-      <a
-        href="https://www.linkedin.com/in/fatima-galant-778944228/"
-        target="_blank"
-        class="btn btn-light"
-        style="border-radius: 50%"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-      <a
-        href="https://www.github.com/fatimagalant"
-        target="_blank"
-        class="btn btn-light"
-        style="border-radius: 50%"
-        ><i class="fa-brands fa-github"></i
-      ></a>
-      <a
-        href="https://www.codepen.io/fatimagalant"
-        target="_blank"
-        class="btn btn-light"
-        style="border-radius: 50%"
-        ><i class="fa-brands fa-codepen"></i
-      ></a>
-      <a
-        href="https://www.instagram.com/fatimagalant_"
-        target="_blank"
-        class="btn btn-light"
-        style="border-radius: 50%"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
+      <div class="row">
+        <div class="col">
+          <a
+            href="https://www.linkedin.com/in/fatima-g-778944228/"
+            target="_blank"
+            class="btn btn-light"
+            style="border-radius: 50%"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="col">
+          <a
+            href="https://www.github.com/fatimagalant"
+            target="_blank"
+            class="btn btn-light"
+            style="border-radius: 50%"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="col">
+          <a
+            href="https://www.codepen.io/fatimagalant"
+            target="_blank"
+            class="btn btn-light"
+            style="border-radius: 50%"
+            ><i class="fa-brands fa-codepen"></i
+          ></a>
+        </div>
+        <div class="col">
+          <a
+            href="https://www.instagram.com/fatimagalant_"
+            target="_blank"
+            class="btn btn-light"
+            style="border-radius: 50%"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
     </div>
     <button
       id="close-btn"
@@ -109,8 +119,10 @@ fa-brands {
   height: auto;
   transition: all ease-in-out 0.5s;
 }
-fa-brands:hover {
-  filter: invert();
+a:hover {
+  background-color: black;
+  color: white;
+  border: none;
 }
 .items {
   padding: 0.5rem;
@@ -124,7 +136,9 @@ fa-brands:hover {
 .items:hover {
   color: whitesmoke;
 }
-
+.socials {
+  padding-left: 35px;
+}
 .nav-links {
   z-index: 100;
   font-family: fancy;
@@ -220,8 +234,8 @@ fa-brands:hover {
   }
   .items {
     font-size: 2rem;
-      font-family: 'Montserrat', sans-serif;
-      align-items: center;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
   }
 }
 </style>

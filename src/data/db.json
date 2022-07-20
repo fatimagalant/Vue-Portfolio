@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "category": "Vue",
+      "title": "Digital Art Gallery",
+      "imgURL": "https://i.postimg.cc/3x31WF3f/zalfa-imani-1xp5-Vxvy-KL0-unsplash.jpg",
+      "description": "This was a group project that was created by 3 other group members includig myself. I contributed the contact page, artists page and created the idea, as well as the extensive research and extra information needed to make this project complete"
+    },
+    {
+      "id": "2",
+      "category": "Javascript",
+      "title": "Property Listings",
+      "imgURL": "https://i.postimg.cc/T29F01hs/etienne-beauregard-riverin-B0a-Cv-AVSX8-E-unsplash.jpg",
+      "description": "This project was given to us to challenge our javascript skills and it  was an amazing opportunity to really put the skills that I've learnt to use."
+    },
+    {
+      "id": "3",
+      "category": "Bootstrap",
+      "title": "Personal Portfolio",
+      "imgURL": "https://i.postimg.cc/y89TfpvN/luca-bravo-9l-326-FISzk-unsplash.jpg",
+      "description": "During this project I put my html and css skills to use by creating a portfolio."
+    },
+    {
+      "id": "4",
+      "category": "Javascript",
+      "title": "BMI Calculator",
+      "imgURL": "https://i.postimg.cc/WzkD2CDF/kenny-eliason-5dd-H9-Y2acc-I-unsplash.jpg",
+      "description": "This BMI Calculator was created using html for structure, css for styling and javascript for functionality."
+    },
+    {
+      "id": "5",
+      "category": "Javascript",
+      "title": "Calculator",
+      "imgURL": "https://i.postimg.cc/pLGjxgkC/manik-roy-x-X6t-K3-F35f-M-unsplash.jpg",
+      "description": "When I had just learnt html and was introduced to css flexbox, I created the structure and styling using html and css. Later I came back and added functionality using javascript."
+    },
+    {
+      "id": "6",
+      "category": "Javascript",
+      "title": "To Do List",
+      "imgURL": "https://i.postimg.cc/4ysyp5Bn/thomas-bormans-pcps-Vsy-Fp-s-unsplash.jpg",
+      "description": "After just learning javascript, I was tasked (lol) to create a to do list."
+    },
+    {
+      "id": "7",
+      "category": "Javascript",
+      "title": "Temperature Converter",
+      "imgURL": "https://i.postimg.cc/13wxZQ9h/jonas-jaeken-6-FCNk-B-z-M-o-unsplash.jpg",
+      "description": "This was one of the mini javascript projects I created to better my skills and continue practicing."
+    },
+    {
+      "id": "8",
+      "category": "Bootstrap",
+      "title": "Restaurant",
+      "imgURL": "https://i.postimg.cc/jj8YMhxL/igor-rand-wf-M1-Fi-k-Ma-Y-unsplash.jpg",
+      "description": "This is a restaurant inspired website that I created using bootstrap."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "id": "1",
+      "imgURL": "https://i.postimg.cc/sg2XT9qq/Zoe-1.jpg",
+      "name": "Zoe Van Der Schyff",
+      "occupation": "Colleague",
+      "quote": "Fatima Galant is hard working and is a fast learner . She is very determined to finish what she started , and she'll work hard until she achieves it."
+    },
+    {
+      "id": "2",
+      "imgURL": "https://i.postimg.cc/05JY9mkL/Ricardo-3.jpg",
+      "name": "Ricardo Ronan Moses",
+      "occupation": "Colleague",
+      "quote": "Fatima Galant is a very expressive  and hardworking young lady.  I cannot express enough how much commitment and consistency she is. Working alongside her has been an absolute pleasure and I would personally recommend her."
+    },
+    {
+      "id": "3",
+      "imgURL": "https://i.postimg.cc/63VBhYVk/Natheerah-3.jpg",
+      "name": "Natheerah Abrahams",
+      "occupation": "Colleague",
+      "quote": "Fatima Galant is very dedicated and striving. She is also independent and would always figure out on her own how to do things."
+    },
+    {
+      "id": "4",
+      "imgURL": "https://i.postimg.cc/s27zVwLM/Uzair-3.jpg",
+      "name": "Uzair Damonse",
+      "occupation": "Colleague",
+      "quote": "Fatima is one of most resilient and hard-working people I know. She is a great person to have as a teammate because she always assists in making the team better and giving ideas that impact projects immensely"
+    },
+    {
+      "id": "5",
+      "imgURL": "https://i.postimg.cc/hP6NfVTT/jason-v3.jpg",
+      "name": "Jason Wandrag",
+      "occupation": "lecturer",
+      "quote": "Fatima is a very respectful and humble person. She shows great care for those around her and she strives to achieve the absolute best. She is an exceptionally well rounded person that will provide great value to any workplace she enters."
+    },
+    {
+      "id": "6",
+      "imgURL": "https://i.postimg.cc/sg2XT9qq/Zoe-1.jpg",
+      "name": "Zoe Van Der Schyff",
+      "quote": "Fatima Galant is hard working and is a fast learner . She is very determined to finish what she started , and she'll work hard until she achieves it."
+    }
+  ]
+}
