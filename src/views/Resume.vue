@@ -97,7 +97,16 @@
       </div>
     </div>
   </section>
+  <Footer />
 </template>
+<script>
+import Footer from "../components/Footer.vue";
+export default {
+  components: {
+    Footer,
+  },
+};
+</script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans+Mono:wght@200;300&family=Noto+Serif+Display:wght@700&family=Poppins:wght@200&display=swap");
 #resume {

@@ -9,7 +9,7 @@
               <div class="col">
                 <input
                   type="text"
-                  class="form-control mb-2"
+                  class="form-control mb-2 bg-dark text-light"
                   placeholder="name"
                   aria-label="name"
                   name="name"
@@ -18,7 +18,7 @@
               <div class="col">
                 <input
                   type="email"
-                  class="form-control mb-2"
+                  class="form-control mb-2 bg-dark text-light"
                   placeholder="email"
                   aria-label="email"
                   name="email"
@@ -26,7 +26,7 @@
                 />
               </div>
               <select
-                class="form-select mb-2"
+                class="form-select mb-2 bg-dark text-light"
                 aria-label="subject"
                 name="subject"
                 placeholder="subject"
@@ -38,7 +38,7 @@
               </select>
               <div class="mb-3">
                 <textarea
-                  class="form-control"
+                  class="form-control bg-dark text-light"
                   id="exampleFormControlTextarea1"
                   rows="3"
                   name="message"
@@ -97,8 +97,29 @@ export default {
 .container[data-v-df212a54] {
   /* border: 2px solid rgb(0, 0, 0); */
   z-index: 2;
-  padding-bottom: 72px;
-  padding-top: 141px;
+     padding-bottom: 193px;
+  /* padding-top: 141px; */
+}
+@media screen and (max-width:935px){
+  .col-6 {
+    flex: 0 0 auto;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+}
+.row>*[data-v-df212a54] {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 26px
+px
+;
+}
 }
 .form-control {
   display: block;
@@ -138,12 +159,15 @@ button {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   font-family: "Poppins", sans-serif;
 }
+
 h1 {
-  padding-top: 10px;
+  padding-top: 70px;
   font-family: "Montserrat", sans-serif;
   align-content: center;
   justify-content: center;
   align-items: center;
+  display: grid;
+  padding-bottom: 20px;
 }
 h1:after {
   content: "";

@@ -14,10 +14,7 @@
         <div class="col-6">
           <h1 class="about-heading">About Me</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            sint, molestias sequi modi quo, necessitatibus laborum animi debitis
-            blanditiis quod dicta sapiente praesentium dolores eius reiciendis
-            maxime magnam, eaque dignissimos.
+           I am introverted by nature, humble, dedicated, a good communicator, creative and passionate. I easily adapt to situations and most of all I am resilient. My intretests and hobbies include, but are not limited to; reading, hiking, wakeboarding and  playing sport. You can sometimes find me in my kitchen testing out new recipes.
           </p>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
@@ -85,10 +82,16 @@
         </div>
       </div>
     </div>
+    <Footer />
   </section>
 </template>
 <script>
-export default {};
+import Footer from "../components/Footer.vue";
+export default {
+  components: {
+    Footer,
+  },
+};
 </script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans+Mono:wght@200;300&family=Noto+Serif+Display:wght@700&family=Poppins:wght@200&display=swap");

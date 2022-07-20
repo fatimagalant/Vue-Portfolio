@@ -5,6 +5,8 @@
       <span>W</span>
       <span>E</span>
       <span>B</span>
+      <br/>
+      <br/>
       <span>D</span>
       <span>E</span>
       <span>V</span>
@@ -47,8 +49,8 @@ export default {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   gap: 30px;
   font-size: 2rem;
   text-align: center;
@@ -63,7 +65,7 @@ h1 {
   font-size: 5rem;
   font-weight: 5rem;
   font-family: "Montserrat", sans-serif;
-
+      padding-top: 15rem;
   display: flex;
   justify-content: center;
   /* padding-top: 22rem; */
@@ -118,6 +120,7 @@ a {
   font-size: 0;
   text-align: center;
   margin: 50px 0 0;
+      padding-bottom: 333px;
 }
 .text-effect span {
   font-size: 28px;
