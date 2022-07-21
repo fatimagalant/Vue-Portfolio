@@ -109,7 +109,9 @@ export default {
   .row {
     display: flex;
     justify-content: center;
-  }
+  padding-bottom:30px;
+}
+  
 @media screen and (max-width: 400px) {
   .row {
     display: flex;
