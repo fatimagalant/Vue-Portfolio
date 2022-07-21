@@ -12,6 +12,9 @@ export default {
 </script>
 
 <style>
+#app {
+  overflow-x: hidden;
+}
 ::-webkit-scrollbar {
   display: none;
 }
