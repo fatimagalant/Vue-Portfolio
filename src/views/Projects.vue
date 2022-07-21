@@ -2,11 +2,19 @@
   <section id="projects">
     <h1>Projects</h1>
     <div v-for="project in projects" :key="project.id">
-      <div class="row">
-        <div class="col">
-          <img id="img" v-bind:src="project.imgURL" />
+      <div class="container">
+        <div class="box">
+            <div class="imgBox">
+               <a href="{{project.link}}">
+                <img id="img" v-bind:src="project.imgURL"/> 
+                </a>
+            </div>
+            <div class="content">
+                <h2>{{project.title}} <br/>
+                <span>{{project.category}}</span></h2>
+            </div>
         </div>
-      </div>
+    </div>
     </div>
   </section>
 </template>
@@ -23,6 +31,7 @@ export default {
             "https://i.postimg.cc/3x31WF3f/zalfa-imani-1xp5-Vxvy-KL0-unsplash.jpg",
           description:
             "This was a group project that was created by 3 other group members includig myself. I contributed the contact page, artists page and created the idea, as well as the extensive research and extra information needed to make this project complete",
+            link: "https://leschevresdigitalartgallery.netlify.app/"
         },
         {
           id: 2,
@@ -105,5 +114,118 @@ h1 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 3rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#img{
+  height: 30rem;
+}
+.container .box {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  margin: 4rem;
+}
+@media screen and (max-width:1500px) {
+.container .box {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  margin: 4rem;
+}
+}
+
+.container .box:hover .imgBox {
+  transform: translate(-3.5rem, -3.5rem);
+}
+
+.container .box:hover .content {
+  transform: translate(3.5rem, 3.5rem);
+}
+
+.imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+
+.imgBox img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  resize: both;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(53, 53, 53);
+  z-index: 1;
+  align-items: flex-end;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+.content h2 {
+  display: block;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+.content span {
+  color: #555;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+  .container .box:hover .content {
+    transform: translate(0, 3.5rem);
+  }
+  .container .box:hover .imgBox {
+    transform: translate(0, -3.5rem);
+  }
 }
 </style>

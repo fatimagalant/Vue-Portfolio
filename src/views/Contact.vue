@@ -83,7 +83,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans+Mono:wght@200;300&family=Noto+Serif+Display:wght@700&family=Poppins:wght@200&display=swap");
 #contact {
   background: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.288)),
-    url("https://i.postimg.cc/DwpfSg12/ezgif-com-gif-maker-1.gif");
+    url("https://i.postimg.cc/V6s7NH87/brent-ninaber-zr-Ojc-QXAdvk-unsplash.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -102,8 +102,7 @@ export default {
   z-index: 2;
   padding-bottom: 193px;
   /* padding-top: 141px; */
-  backdrop-filter: blur(14px);
-}
+} 
 @media screen and (max-width: 935px) {
   .col-6 {
     flex: 0 0 auto;

@@ -64,16 +64,16 @@ export default {
           id: 5,
           imgURL: "https://i.postimg.cc/hP6NfVTT/jason-v3.jpg",
           name: "Jason Wandrag",
-          occupation: "lecturer",
+          occupation: "Lecturer",
           quote:
             "Fatima is a very respectful and humble person. She shows great care for those around her and she strives to achieve the absolute best. She is an exceptionally well rounded person that will provide great value to any workplace she enters.",
         },
         {
           id: 6,
-          imgURL: "",
+          imgURL: "https://i.postimg.cc/yNDFkXZh/Carla-1-1.jpg",
           name: "Carla Amy Lawrence",
-          occupation: "colleague",
-          quote: "Lorem30rvklervkremvkefkvkefmvkfvk v",
+          occupation: "Colleague",
+          quote: "Fatima is an exceptional web developer. She is laser focused, highly skilled and determined to take on any task given to her. Her work ethic is highly commendable . It is a pleasure to have worked alongside her and I can, without a doubt, say that Fatima would be an asset and perfect addition to any team.",
         },
       ],
     };
@@ -103,12 +103,21 @@ export default {
   align-content: center;
   align-items: center;
   text-align-last: center;
-  width: 500px;
+  width: 1000px;
   padding: 20px;
 }
-.row {
-  display: flex;
-  justify-content: center;
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+@media screen and (max-width: 400px) {
+  .row {
+    display: flex;
+    justify-content: center;
+}
+.card{
+  width: 500px;
+}
 }
 h1 {
   padding-top: 3rem;

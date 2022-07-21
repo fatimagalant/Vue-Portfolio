@@ -14,18 +14,19 @@
         <div class="col-6">
           <h1 class="about-heading">About Me</h1>
           <p>
+            Aspiring web developer with an affinity for continuous learning.
             I am introverted by nature, humble, dedicated, a good communicator,
             creative and passionate. I easily adapt to situations and most of
-            all I am resilient. My intretests and hobbies include, but are not
+            all I am resilient. I love learning new things. My intretests and hobbies include, but are not
             limited to; reading, hiking, wakeboarding and playing sport. You can
             sometimes find me in my kitchen testing out new recipes.
           </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            sint, molestias sequi modi quo, necessitatibus laborum animi debitis
-            blanditiis quod dicta sapiente praesentium dolores eius reiciendis
-            maxime magnam, eaque dignissimos.
-          </p>
+         <ul>
+          <li>you can reach out to me via email : <a href="mailto:fatimagalant03@gmail.com">fatimagalant03@gmail.com</a></li>
+          <li>or via phone : <a href="tel:0662091181">+27662091181</a></li>
+          <li>connect with me on <a href="https://www.linkedin.com/in/fatima-g-778944228/"
+                  target="_blank">Linkedin</a></li>
+          </ul>
           <h2 class="skills-heading">Technical Skills</h2>
           <div class="container">
             <div class="row">
@@ -138,6 +139,9 @@ export default {
   justify-content: center;
   align-items: center;
 }
+#pin{
+font-size:10px;
+}
 .fa-solid,
 .fa-database {
   font-family: "Font Awesome 6 Brands";
@@ -152,6 +156,10 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   padding-top: 5rem;
+}
+a{
+  color:cornflowerblue;
+  text-decorations: none;
 }
 .click {
   display: none;
