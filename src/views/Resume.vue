@@ -1,5 +1,5 @@
 <template>
-  <section id="resume" class="bg-dark test-light">
+  <section id="resume" class="bg-dark test-light" data-aos="fade-up">
     <div
       class="container bg-dark text-light aos-init aos-animate"
       data-aos="fade-up"

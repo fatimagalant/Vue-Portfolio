@@ -7,27 +7,25 @@
           <div class="col-sm-12 col-md-6">
             <h6>About</h6>
             <p class="text-justify">
-              I am a prospective fullstack developer Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione explicabo molestias voluptatum exercitationem, modi obcaecati assumenda. Ullam nisi, voluptas, esse magnam molestiae aut distinctio necessitatibus quidem delectus est dolorem excepturi.
+              I am a prospective fullstack developer Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Ratione explicabo molestias
+              voluptatum exercitationem, modi obcaecati assumenda. Ullam nisi,
+              voluptas, esse magnam molestiae aut distinctio necessitatibus
+              quidem delectus est dolorem excepturi.
             </p>
           </div>
 
           <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
+            <h6>Skills</h6>
             <ul class="footer-links">
               <li>
-                <a href="/projects">
-                  HTML</a>
+                <a href="/projects"> HTML</a>
               </li>
               <li>
-                <a href="/projects"
-                  >CSS</a
-                >
+                <a href="/projects">CSS</a>
               </li>
               <li>
-                <a
-                  href="/projects"
-                  >Bootstrap</a
-                >
+                <a href="/projects">Bootstrap</a>
               </li>
               <li>
                 <a href="/projects">JavaScript</a>
@@ -65,32 +63,28 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
               <li>
-             <a
-            href="https://www.linkedin.com/in/fatima-g-778944228/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+                <a
+                  href="https://www.linkedin.com/in/fatima-g-778944228/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
               </li>
               <li>
-               <a
-            href="https://www.github.com/fatimagalant"
-            target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
+                <a href="https://www.github.com/fatimagalant" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
               </li>
               <li>
-          <a
-            href="https://www.codepen.io/fatimagalant"
-            target="_blank"
-            ><i class="fa-brands fa-codepen"></i
-          ></a>
+                <a href="https://www.codepen.io/fatimagalant" target="_blank"
+                  ><i class="fa-brands fa-codepen"></i
+                ></a>
               </li>
               <li>
-   <a
-            href="https://www.instagram.com/fatimagalant_"
-            target="_blank"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
+                <a
+                  href="https://www.instagram.com/fatimagalant_"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
               </li>
             </ul>
           </div>
@@ -215,7 +209,7 @@ export default {};
 .social-icons a:hover {
   color: rgb(0, 0, 0);
   background-color: #fff;
-} 
+}
 .social-icons.size-sm a {
   line-height: 34px;
   height: 34px;

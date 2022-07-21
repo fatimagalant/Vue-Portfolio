@@ -2,11 +2,13 @@
   <section id="Landing">
     <h1>Fatima Galant <br /></h1>
     <div class="text-effect">
+      <h2>Aspiring</h2>
+      <br />
       <span>W</span>
       <span>E</span>
       <span>B</span>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <span>D</span>
       <span>E</span>
       <span>V</span>
@@ -65,19 +67,20 @@ h1 {
   font-size: 5rem;
   font-weight: 5rem;
   font-family: "Montserrat", sans-serif;
-      padding-top: 15rem;
+  padding-top: 15rem;
   display: flex;
   justify-content: center;
   /* padding-top: 22rem; */
   text-shadow: 2px 2px rgba(0, 0, 0, 0.582);
 }
 h2 {
-  font-weight: 3rem;
+  font-weight: 4rem;
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
   color: white;
-  text-shadow: 0px 0px 8px rgba(255 255 255 / 0.58);
+  padding-bottom: 30px;
+  text-shadow: 2px 2px 8px rgba(255 255 255 / 0.58);
 }
 span {
   animation: blinker 1s linear infinite;
@@ -96,13 +99,7 @@ span {
     opacity: 0;
   }
 }
-/* h2 {
-  color: black;
-  font-family: "Noto Sans Mono", monospace;
-} */
-/* h3 {
-  margin: 40px 0 0;
-} */
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -120,7 +117,7 @@ a {
   font-size: 0;
   text-align: center;
   margin: 50px 0 0;
-      padding-bottom: 333px;
+  padding-bottom: 333px;
 }
 .text-effect span {
   font-size: 28px;

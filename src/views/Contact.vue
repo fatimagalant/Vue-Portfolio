@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="text-light">
+  <section id="contact" class="text-light" data-aos="fade-up">
     <div class="container">
       <h1>Contact Me</h1>
       <div class="row">
@@ -61,6 +61,9 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
+          <h1 class="address">
+            Location: 314 Imam Haron Rd, Lansdowne, Cape Town, 7780
+          </h1>
         </div>
       </div>
       <div class="row"></div>
@@ -97,29 +100,28 @@ export default {
 .container[data-v-df212a54] {
   /* border: 2px solid rgb(0, 0, 0); */
   z-index: 2;
-     padding-bottom: 193px;
+  padding-bottom: 193px;
   /* padding-top: 141px; */
+  backdrop-filter: blur(14px);
 }
-@media screen and (max-width:935px){
+@media screen and (max-width: 935px) {
   .col-6 {
     flex: 0 0 auto;
     /* width: 50%; */
     display: flex;
     flex-direction: column;
-}
-.row>*[data-v-df212a54] {
+  }
+  .row > *[data-v-df212a54] {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-top: var(--bs-gutter-y);
     display: flex;
     flex-direction: column;
-    padding-bottom: 26px
-px
-;
-}
+    padding-bottom: 26px px;
+  }
 }
 .form-control {
   display: block;
@@ -159,7 +161,9 @@ button {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   font-family: "Poppins", sans-serif;
 }
-
+.address {
+  display: none;
+}
 h1 {
   padding-top: 70px;
   font-family: "Montserrat", sans-serif;
@@ -176,5 +180,13 @@ h1:after {
 }
 iframe {
   filter: invert();
+}
+@media screen and (max-width: 467px) {
+  iframe {
+    display: none;
+  }
+  .address {
+    display: block;
+  }
 }
 </style>

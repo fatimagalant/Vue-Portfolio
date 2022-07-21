@@ -1,5 +1,5 @@
 <template>
-  <section id="About">
+  <section id="About" data-aos="fade-up">
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -14,7 +14,11 @@
         <div class="col-6">
           <h1 class="about-heading">About Me</h1>
           <p>
-           I am introverted by nature, humble, dedicated, a good communicator, creative and passionate. I easily adapt to situations and most of all I am resilient. My intretests and hobbies include, but are not limited to; reading, hiking, wakeboarding and  playing sport. You can sometimes find me in my kitchen testing out new recipes.
+            I am introverted by nature, humble, dedicated, a good communicator,
+            creative and passionate. I easily adapt to situations and most of
+            all I am resilient. My intretests and hobbies include, but are not
+            limited to; reading, hiking, wakeboarding and playing sport. You can
+            sometimes find me in my kitchen testing out new recipes.
           </p>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
@@ -61,7 +65,7 @@
                 <div class="card-body text-dark">
                   <i
                     class="fa-brands fa-vuejs"
-                    style="background-color: seagreen"
+                    style="background-color: white; color: seagreen"
                   ></i>
                 </div>
               </div>
@@ -69,6 +73,20 @@
                 <div class="card-header text-dark">MYSQL</div>
                 <div class="card-body text-dark">
                   <i class="fa-solid fa-database"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card border-dark mb-3" style="max-width: 15rem">
+                <div class="card-header text-dark">NODEJS</div>
+                <div class="card-body text-dark">
+                  <i class="fa-brands fa-node" style="color: green"></i>
+                </div>
+              </div>
+              <div class="card border-dark mb-3" style="max-width: 15rem">
+                <div class="card-header text-dark">GIT</div>
+                <div class="card-body text-dark">
+                  <i class="fa-brands fa-github"></i>
                 </div>
               </div>
             </div>
