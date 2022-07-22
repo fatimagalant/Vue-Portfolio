@@ -7,11 +7,10 @@
           <div class="col-sm-12 col-md-6">
             <h6>About</h6>
             <p class="text-justify">
-              I am a prospective fullstack developer Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Ratione explicabo molestias
-              voluptatum exercitationem, modi obcaecati assumenda. Ullam nisi,
-              voluptas, esse magnam molestiae aut distinctio necessitatibus
-              quidem delectus est dolorem excepturi.
+              I am a prospective fullstack developer. My tech stack consists of
+              html, css, javascipt, vuejs, mysql and nodejs. It has been
+              challenging picking up these skills but it's also really helped me
+              to take that step to start my web development career.
             </p>
           </div>
 

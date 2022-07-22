@@ -22,7 +22,7 @@
             wakeboarding and playing sport. You can sometimes find me in my
             kitchen testing out new recipes.
           </p>
-          <ul>
+          <ul class="pb-5">
             <li>
               you can reach out to me via email :
               <a href="mailto:fatimagalant03@gmail.com"
@@ -205,7 +205,6 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-weight: 2rem;
   font-size: 3rem;
-  padding-top: 5rem;
 }
 .skills-heading {
   font-family: "Montserrat", sans-serif;
