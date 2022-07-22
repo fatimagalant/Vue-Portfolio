@@ -252,7 +252,6 @@ a {
   padding-bottom: 5rem;
   filter: gray;
   -webkit-filter: grayscale(1);
-  /* -webkit-transition: all 0.8s ease-in-out; */
 }
 
 img:hover {
