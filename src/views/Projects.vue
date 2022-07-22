@@ -1,6 +1,7 @@
 <template>
   <section id="projects" class="bg-dark text-light">
     <h1>Projects</h1>
+    <p>Hover over my project cards!</p>
     <div v-for="project in projects" :key="project.id">
       <div class="container">
         <div class="row">
@@ -165,13 +166,14 @@ export default {
     height: 500px;
     aspect-ratio: 1;
     object-fit: cover;
+    justify-content: center;
   }
   .content {
     position: absolute;
     top: 0;
     left: 0;
     width: 400px;
-    height: 10rem;
+    height: 500px;
     padding-top: 2rem;
     padding: 1.5rem;
     display: flex;
@@ -195,7 +197,11 @@ h2 {
   text-align: center;
   font-size: 3rem;
 }
-
+p {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 *,
 *::after,
@@ -285,6 +291,23 @@ body {
   width: 800px;
   height: 30rem;
   padding-top: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(53, 53, 53);
+  z-index: 1;
+  align-items: flex-end;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+.content:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 30rem;
+  margin-top: 2rem;
   padding: 1.5rem;
   display: flex;
   justify-content: center;

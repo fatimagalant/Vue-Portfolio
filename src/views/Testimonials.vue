@@ -1,7 +1,7 @@
 <template>
   <section id="testimonials" class="bg-dark text-light">
     <h1>Testimonials</h1>
-    <h5>Here's what a few people had to say:</h5>
+    <h5 style="padding-bottom: 10px">Here's what a few people had to say:</h5>
     <div v-for="testimonial in testimonials" :key="testimonial.id">
       <div class="row">
         <!-- <div class="col"> -->

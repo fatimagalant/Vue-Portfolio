@@ -259,6 +259,9 @@ img:hover {
   -webkit-filter: grayscale(0);
   /* -webkit-transform: scale(1.01); */
 }
+.row {
+  padding-bottom: 1rem;
+}
 /* .tskills:hover {
   color: blueviolet;
 } */
