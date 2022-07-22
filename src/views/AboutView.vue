@@ -14,30 +14,56 @@
         <div class="col-6">
           <h1 class="about-heading">About Me</h1>
           <p>
-            Aspiring web developer with an affinity for continuous learning.
-            I am introverted by nature, humble, dedicated, a good communicator,
+            Aspiring web developer with an affinity for continuous learning. I
+            am introverted by nature, humble, dedicated, a good communicator,
             creative and passionate. I easily adapt to situations and most of
-            all I am resilient. I love learning new things. My intretests and hobbies include, but are not
-            limited to; reading, hiking, wakeboarding and playing sport. You can
-            sometimes find me in my kitchen testing out new recipes.
+            all I am resilient. I love learning new things. My intretests and
+            hobbies include, but are not limited to; reading, hiking,
+            wakeboarding and playing sport. You can sometimes find me in my
+            kitchen testing out new recipes.
           </p>
-         <ul>
-          <li>you can reach out to me via email : <a href="mailto:fatimagalant03@gmail.com">fatimagalant03@gmail.com</a></li>
-          <li>or via phone : <a href="tel:0662091181">+27662091181</a></li>
-          <li>connect with me on <a href="https://www.linkedin.com/in/fatima-g-778944228/"
-                  target="_blank">Linkedin</a></li>
+          <ul>
+            <li>
+              you can reach out to me via email :
+              <a href="mailto:fatimagalant03@gmail.com"
+                >fatimagalant03@gmail.com</a
+              >
+            </li>
+            <li>or via phone : <a href="tel:0662091181">+27662091181</a></li>
+            <li>
+              connect with me on
+              <a
+                href="https://www.linkedin.com/in/fatima-g-778944228/"
+                target="_blank"
+                >Linkedin</a
+              >
+            </li>
           </ul>
           <h2 class="skills-heading">Technical Skills</h2>
           <div class="container">
             <div class="row">
               <div class="card border-dark mb-3" style="max-width: 15rem">
-                <div class="card-header text-dark">HTML</div>
+                <div class="card-header text-dark">
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#:~:text=HTML%20(HyperText%20Markup%20Language)%20is,using%20images%20and%20data%20tables."
+                    target="_blank"
+                    style="text-decoration: none; color: black"
+                    >HTML</a
+                  >
+                </div>
                 <div class="card-body text-dark">
                   <i class="fa-brands fa-html5" style="color: crimson"></i>
                 </div>
               </div>
               <div class="card border-dark mb-3" style="max-width: 15rem">
-                <div class="card-header text-dark">CSS</div>
+                <div class="card-header text-dark">
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                    target="_blank"
+                    style="text-decoration: none; color: black"
+                    >CSS</a
+                  >
+                </div>
                 <div class="card-body text-dark">
                   <i
                     class="fa-brands fa-css3"
@@ -48,13 +74,29 @@
             </div>
             <div class="row">
               <div class="card border-dark mb-3" style="max-width: 15rem">
-                <div class="card-header text-dark">BOOTSTRAP</div>
+                <div class="card-header text-dark">
+                  <a
+                    href="https://getbootstrap.com/"
+                    target="_blank"
+                    style="text-decoration: none; color: black"
+                    class="tskills"
+                    >BOOTSTRAP</a
+                  >
+                </div>
                 <div class="card-body text-dark">
                   <i class="fa-brands fa-bootstrap" style="color: purple"></i>
                 </div>
               </div>
               <div class="card border-dark mb-3" style="max-width: 15rem">
-                <div class="card-header text-dark">JAVASCRIPT</div>
+                <div class="card-header text-dark">
+                  <a
+                    href="https://www.javascript.com/"
+                    target="_blank"
+                    style="text-decoration: none; color: black"
+                    class="tskills"
+                    >JAVASCRIPT</a
+                  >
+                </div>
                 <div class="card-body text-dark">
                   <i class="fa-brands fa-js" style="color: yellow"></i>
                 </div>
@@ -62,7 +104,15 @@
             </div>
             <div class="row">
               <div class="card border-dark mb-3" style="max-width: 15rem">
-                <div class="card-header text-dark">VUEJS</div>
+                <div class="card-header text-dark">
+                  <a
+                    href="https://vuejs.org/"
+                    target="_blank"
+                    style="text-decoration: none; color: black"
+                    class="tskills"
+                    >VUEJS
+                  </a>
+                </div>
                 <div class="card-body text-dark">
                   <i
                     class="fa-brands fa-vuejs"
@@ -71,21 +121,53 @@
                 </div>
               </div>
               <div class="card border-dark mb-3" style="max-width: 15rem">
-                <div class="card-header text-dark">MYSQL</div>
+                <div class="card-header text-dark">
+                  <a
+                    href="https://www.mysql.com/"
+                    target="_blank"
+                    style="text-decoration: none; color: black"
+                    class="tskills"
+                    >MYSQL
+                  </a>
+                </div>
                 <div class="card-body text-dark">
-                  <i class="fa-solid fa-database"></i>
+                  <i
+                    class="fa-solid fa-database"
+                    style="
+                      font-size: 5rem;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    "
+                  ></i>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="card border-dark mb-3" style="max-width: 15rem">
-                <div class="card-header text-dark">NODEJS</div>
+                <div class="card-header text-dark">
+                  <a
+                    href="https://nodejs.org/"
+                    target="_blank"
+                    style="text-decoration: none; color: black"
+                    class="tskills"
+                    >NODEJS</a
+                  >
+                </div>
                 <div class="card-body text-dark">
                   <i class="fa-brands fa-node" style="color: green"></i>
                 </div>
               </div>
               <div class="card border-dark mb-3" style="max-width: 15rem">
-                <div class="card-header text-dark">GIT</div>
+                <div class="card-header text-dark">
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    style="text-decoration: none; color: black"
+                    class="tskills"
+                    >GITHUB</a
+                  >
+                </div>
                 <div class="card-body text-dark">
                   <i class="fa-brands fa-github"></i>
                 </div>
@@ -139,26 +221,16 @@ export default {
   justify-content: center;
   align-items: center;
 }
-#pin{
-font-size:10px;
+#pin {
+  font-size: 10px;
 }
-.fa-solid,
-.fa-database {
-  font-family: "Font Awesome 6 Brands";
-  font-weight: 400;
-  font-size: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .hover {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   padding-top: 5rem;
 }
-a{
-  color:cornflowerblue;
+a {
+  color: cornflowerblue;
   text-decorations: none;
 }
 .click {
@@ -187,5 +259,8 @@ img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
+}
+.tskills:hover {
+  color: blueviolet;
 }
 </style>

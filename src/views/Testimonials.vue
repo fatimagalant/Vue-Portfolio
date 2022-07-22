@@ -21,10 +21,15 @@
         </div>
       </div>
     </div>
+    <Footer />
   </section>
 </template>
 <script>
+import Footer from "../components/Footer.vue";
 export default {
+  components: {
+    Footer,
+  },
   data() {
     return {
       testimonials: [
@@ -73,7 +78,8 @@ export default {
           imgURL: "https://i.postimg.cc/yNDFkXZh/Carla-1-1.jpg",
           name: "Carla Amy Lawrence",
           occupation: "Colleague",
-          quote: "Fatima is an exceptional web developer. She is laser focused, highly skilled and determined to take on any task given to her. Her work ethic is highly commendable . It is a pleasure to have worked alongside her and I can, without a doubt, say that Fatima would be an asset and perfect addition to any team.",
+          quote:
+            "Fatima is an exceptional web developer. She is laser focused, highly skilled and determined to take on any task given to her. Her work ethic is highly commendable . It is a pleasure to have worked alongside her and I can, without a doubt, say that Fatima would be an asset and perfect addition to any team.",
         },
       ],
     };
@@ -106,20 +112,20 @@ export default {
   width: 1000px;
   padding: 20px;
 }
-  .row {
-    display: flex;
-    justify-content: center;
-  padding-bottom:30px;
+.row {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
-  
+
 @media screen and (max-width: 400px) {
   .row {
     display: flex;
     justify-content: center;
-}
-.card{
-  width: 500px;
-}
+  }
+  .card {
+    width: 500px;
+  }
 }
 h1 {
   padding-top: 3rem;
