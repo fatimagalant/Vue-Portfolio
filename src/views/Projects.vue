@@ -195,8 +195,7 @@ h2 {
   text-align: center;
   font-size: 3rem;
 }
-p {
-}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 *,
 *::after,
@@ -253,7 +252,7 @@ body {
 .container .box:hover .content {
   transform: translate(3.5rem, 3.5rem);
 }
-@media screen and (max-width: ) {
+/* @media screen and (max-width: ) {
   .container .box:hover .imgBox {
     transform: translate(-3.5rem, -3.5rem);
   }
@@ -261,7 +260,7 @@ body {
   .container .box:hover .content {
     transform: translate(3.5rem, 3.5rem);
   }
-}
+} */
 .imgBox {
   position: absolute;
   top: 0;

@@ -231,7 +231,7 @@ export default {
 }
 a {
   color: cornflowerblue;
-  text-decorations: none;
+  /* text-decorations: none; */
 }
 .click {
   display: none;
