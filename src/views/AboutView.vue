@@ -263,7 +263,7 @@ img:hover {
 } */
 .row[data-v-4cebd208] {
   padding-bottom: 1rem;
-  padding-left: 31px;
+  padding-left: 62px;
 }
 /* .tskills:hover {
   color: blueviolet;
