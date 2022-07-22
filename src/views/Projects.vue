@@ -2,25 +2,38 @@
   <section id="projects" class="bg-dark text-light">
     <h1>Projects</h1>
     <p>Hover over my project cards!</p>
-    <div v-for="project in projects" :key="project.id">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <a v-bind:href="property.linkp"
-              ><img
-                id="img"
-                v-bind:src="project.imgURL"
-                alt="Avatar"
-                style="width: 300px; height: 300px"
-            /></a>
-          </div>
-          <div class="flip-card-back">
-            <h1>{{ project.title }}</h1>
-            <p class="text-muted">{{ project.category }}</p>
-            <p>{{ project.description }}</p>
-            <a v-bind:href="property.github"
-              ><i class="fa-brands fa-github"></i
-            ></a>
+    <div class="row">
+      <div
+        v-for="project in projects"
+        :key="project.id"
+        class="col-md-6 pb-5 px-5"
+      >
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img id="img" v-bind:src="project.imgURL" alt="Avatar" />
+            </div>
+            <div class="flip-card-back">
+              <h1>{{ project.title }}</h1>
+              <p class="text-muted">{{ project.category }}</p>
+              <p id="project-desc" class="p-2">{{ project.description }}</p>
+              <div class="card-container">
+                <div class="card m-1 p-3" id="social-card">
+                  <div class="row">
+                    <div class="col-6" id="col-github">
+                      <a v-bind:href="project.github"
+                        ><i class="fa-brands fa-github p-1" id="github"></i
+                      ></a>
+                    </div>
+                    <div class="col-6" id="col-link">
+                      <a v-bind:href="project.link"
+                        ><i class="fa-solid fa-link p-1" id="link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -143,10 +156,39 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans+Mono:wght@200;300&family=Noto+Serif+Display:wght@700&family=Poppins:wght@200&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 #img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 25rem;
   aspect-ratio: 1;
   object-fit: cover;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#col-github {
+  display: flex;
+  justify-content: flex-end;
+}
+#col-link {
+  display: flex;
+  justify-content: flex-start;
+}
+#social-card {
+  background: transparent;
+  border: none;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 0rem;
+  width: fit-content;
+}
+#github {
+  color: black;
+  font-size: 2rem;
+}
+#link {
+  color: black;
+  font-size: 2rem;
 }
 h1 {
   padding-top: 3rem;
@@ -165,7 +207,7 @@ p {
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 *,
 *::after,
 *::before {
@@ -174,23 +216,10 @@ p {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  width: 100vw;
-  min-height: 100vh;
-  background-color: #f0f0f0;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .flip-card {
   background-color: transparent;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 25rem;
   perspective: 1000px;
 }
 
@@ -226,5 +255,16 @@ body {
   background-color: #696969;
   color: white;
   transform: rotateY(180deg);
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    padding-top: 2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+  }
+  #project-desc {
+    font-size: 0.9rem;
+  }
 }
 </style>
