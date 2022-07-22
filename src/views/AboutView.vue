@@ -11,7 +11,7 @@
             alt="Fatima"
           />
         </div>
-        <div class="col-md-6 p-3">
+        <div class="col-md-6 p-5">
           <h1 class="about-heading">About Me</h1>
           <p>
             Aspiring web developer with an affinity for continuous learning. I
@@ -41,7 +41,7 @@
           </ul>
           <h2 class="skills-heading p-3">Technical Skills</h2>
           <div class="container">
-            <div class="row">
+            <div class="row p-5">
               <div class="card border-dark mb-3" style="max-width: 15rem">
                 <div class="card-header text-dark">
                   <a
@@ -72,7 +72,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row p-5">
               <div class="card border-dark mb-3" style="max-width: 15rem">
                 <div class="card-header text-dark">
                   <a
@@ -102,7 +102,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row p-5">
               <div class="card border-dark mb-3" style="max-width: 15rem">
                 <div class="card-header text-dark">
                   <a
@@ -143,7 +143,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row p-5">
               <div class="card border-dark mb-3" style="max-width: 15rem">
                 <div class="card-header text-dark">
                   <a
@@ -262,8 +262,8 @@ img:hover {
   padding-bottom: 1rem;
 } */
 .row[data-v-4cebd208] {
-  padding-bottom: 1rem;
-  padding-left: 62px;
+  /* padding-bottom: 1rem; */
+  /* padding-left: 31px; */
 }
 /* .tskills:hover {
   color: blueviolet;
