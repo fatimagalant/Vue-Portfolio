@@ -238,4 +238,9 @@ a:hover {
     align-items: center;
   }
 }
+@media screen and (max-width: 500px) {
+  .socials[data-v-41458b80] {
+    padding-left: 65px;
+  }
+}
 </style>
