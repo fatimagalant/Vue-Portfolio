@@ -3,28 +3,24 @@
     <h1>Projects</h1>
     <p>Hover over my project cards!</p>
     <div v-for="project in projects" :key="project.id">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="box">
-              <div class="imgBox">
-                <a v-bind:href="project.link" target="_blank">
-                  <img id="img" v-bind:src="project.imgURL" />
-                </a>
-              </div>
-              <div class="content">
-                <h5>
-                  {{ project.title }} <br />
-                  <span>{{ project.category }}</span>
-                </h5>
-                <p>{{ project.description }}</p>
-                <p>{{ project.linkp }}</p>
-                <br />
-                <a v-bind:href="project.github" target="blank" class="links">
-                  <i class="bi bi-github"></i
-                ></a>
-              </div>
-            </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <a v-bind:href="property.linkp"
+              ><img
+                id="img"
+                v-bind:src="project.imgURL"
+                alt="Avatar"
+                style="width: 300px; height: 300px"
+            /></a>
+          </div>
+          <div class="flip-card-back">
+            <h1>{{ project.title }}</h1>
+            <p class="text-muted">{{ project.category }}</p>
+            <p>{{ project.description }}</p>
+            <a v-bind:href="property.github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -147,43 +143,10 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans+Mono:wght@200;300&family=Noto+Serif+Display:wght@700&family=Poppins:wght@200&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 #img {
-  width: 800px;
-  height: 750px;
+  width: auto;
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
-}
-@media screen and (max-width: 1260px) {
-  .container[data-v-6cfeddb4] {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-left: 0rem;
-  }
-  #img {
-    width: 400px;
-    height: 500px;
-    aspect-ratio: 1;
-    object-fit: cover;
-    justify-content: center;
-  }
-  .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 400px;
-    height: 500px;
-    padding-top: 2rem;
-    padding: 1.5rem;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(53, 53, 53);
-    z-index: 1;
-    align-items: flex-end;
-    text-align: center;
-    transition: 0.5s ease-in-out linear;
-  }
 }
 h1 {
   padding-top: 3rem;
@@ -224,125 +187,44 @@ body {
   justify-content: center;
   align-items: center;
 }
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 500px;
+  perspective: 1000px;
+}
 
-.container {
+.flip-card-inner {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-left: 15rem;
-}
-#img {
-  height: 30rem;
-}
-.container .box {
-  position: relative;
-  width: 30rem;
-  height: 30rem;
-  margin: 4rem;
-}
-@media screen and (max-width: 1500px) {
-  .container .box {
-    position: relative;
-    width: 30rem;
-    height: 30rem;
-    margin: 4rem;
-  }
-}
-
-.container .box:hover .imgBox {
-  transform: translate(-3.5rem, -3.5rem);
-}
-
-.container .box:hover .content {
-  transform: translate(3.5rem, 3.5rem);
-}
-/* @media screen and (max-width: ) {
-  .container .box:hover .imgBox {
-    transform: translate(-3.5rem, -3.5rem);
-  }
-
-  .container .box:hover .content {
-    transform: translate(3.5rem, 3.5rem);
-  }
-} */
-.imgBox {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2;
-  transition: all 0.5s ease-in-out;
-}
-
-.imgBox img {
-  width: 30rem;
-  height: 30rem;
-  object-fit: cover;
-  resize: both;
-}
-
-.content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 800px;
-  height: 30rem;
-  padding-top: 2rem;
-  padding: 1.5rem;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(53, 53, 53);
-  z-index: 1;
-  align-items: flex-end;
   text-align: center;
-  transition: 0.5s ease-in-out;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.content:hover {
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 800px;
-  height: 30rem;
-  margin-top: 2rem;
-  padding: 1.5rem;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(53, 53, 53);
-  z-index: 1;
-  align-items: flex-end;
-  text-align: center;
-  transition: 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.content h2 {
-  display: block;
-  font-size: 2rem;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  line-height: 2rem;
-  letter-spacing: 1px;
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
 }
 
-.links {
-  font-size: 1rem;
-}
-.content span {
-  color: #555;
-  font-size: 1.4rem;
-  font-weight: 300;
-  letter-spacing: 2px;
-}
-
-@media (max-width: 600px) {
-  .container .box:hover .content {
-    transform: translate(0, 3.5rem);
-  }
-  .container .box:hover .imgBox {
-    transform: translate(0, -3.5rem);
-  }
+.flip-card-back {
+  background-color: #696969;
+  color: white;
+  transform: rotateY(180deg);
 }
 </style>
