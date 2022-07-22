@@ -252,13 +252,13 @@ a {
   padding-bottom: 5rem;
   filter: gray;
   -webkit-filter: grayscale(1);
-  -webkit-transition: all 0.8s ease-in-out;
+  /* -webkit-transition: all 0.8s ease-in-out; */
 }
 
 img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
+  /* -webkit-transform: scale(1.01); */
 }
 .tskills:hover {
   color: blueviolet;
