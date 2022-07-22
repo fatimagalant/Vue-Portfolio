@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="bg-dark text-light">
     <h1>Projects</h1>
-    <p>Hover over my project cards!</p>
+    <p class="pb-5">Hover over my project cards!</p>
     <div class="row">
       <div
         v-for="project in projects"
