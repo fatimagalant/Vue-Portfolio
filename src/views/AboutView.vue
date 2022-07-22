@@ -259,9 +259,9 @@ img:hover {
   -webkit-filter: grayscale(0);
   /* -webkit-transform: scale(1.01); */
 }
-.row {
+/* .row {
   padding-bottom: 1rem;
-}
+} */
 .row[data-v-4cebd208] {
   padding-bottom: 1rem;
   padding-left: 31px;
