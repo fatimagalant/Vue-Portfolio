@@ -2,7 +2,7 @@
   <section id="About" data-aos="fade-up">
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-md-6 p-5">
           <p class="hover">Hover over me!</p>
           <p class="click">Click on me!</p>
           <img
@@ -11,7 +11,7 @@
             alt="Fatima"
           />
         </div>
-        <div class="col-6">
+        <div class="col-md-6 p-3">
           <h1 class="about-heading">About Me</h1>
           <p>
             Aspiring web developer with an affinity for continuous learning. I
@@ -39,7 +39,7 @@
               >
             </li>
           </ul>
-          <h2 class="skills-heading">Technical Skills</h2>
+          <h2 class="skills-heading p-3">Technical Skills</h2>
           <div class="container">
             <div class="row">
               <div class="card border-dark mb-3" style="max-width: 15rem">
@@ -261,6 +261,10 @@ img:hover {
 }
 .row {
   padding-bottom: 1rem;
+}
+.row[data-v-4cebd208] {
+  padding-bottom: 1rem;
+  padding-left: 31px;
 }
 /* .tskills:hover {
   color: blueviolet;
