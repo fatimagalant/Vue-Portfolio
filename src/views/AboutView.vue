@@ -259,7 +259,7 @@ img:hover {
   -webkit-filter: grayscale(0);
   /* -webkit-transform: scale(1.01); */
 }
-.tskills:hover {
+/* .tskills:hover {
   color: blueviolet;
-}
+} */
 </style>
