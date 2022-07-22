@@ -67,7 +67,7 @@ h1 {
   font-size: 5rem;
   font-weight: 5rem;
   font-family: "Montserrat", sans-serif;
-  padding-top: 15rem;
+  padding-top: 10rem;
   display: flex;
   justify-content: center;
   /* padding-top: 22rem; */
