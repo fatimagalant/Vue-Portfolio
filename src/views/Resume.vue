@@ -14,7 +14,6 @@
           information of benefit to you to get to know about my professional
           background.
         </p>
-        <!-- <div id="resume-container" class="container mt-5 mb-5 container aos-init aos-animate" data-aos="fade-up"> -->
         <div class="container bg-dark text-light mt-5 mb-5">
           <div class="row">
             <div class="col-md-6">
@@ -71,6 +70,26 @@
                   <h3 class="resume-title">
                     <strong>Professional Experience</strong>
                   </h3>
+                  <div class="resume-item">
+                    <h4>Web Developer Intern</h4>
+                    <h5>Sep 2022-Jan 2022 (5 months)</h5>
+                    <p><em>LC Studio , Cape Town</em></p>
+                    <ul>
+                      <li>
+                        My core objectives at LC Studio include upskilling myself, using the technologies I am learning to create personal projects and to work on client projects when I am proficient in Wordpress and PHP.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="resume-item">
+                    <h4> Intern</h4>
+                    <h5>Jan 2023-Present</h5>
+                    <p><em>ode Infinity , Cape Town</em></p>
+                    <ul>
+                      <li>
+                        My core objectives at ode Infinity include upskilling myself, using the technologies I am learning to create personal projects and to work on client projects when I am proficient.
+                      </li>
+                    </ul>
+                  </div>
                   <div class="resume-item">
                     <h4>Volunteer</h4>
                     <h5>2014-2018</h5>
