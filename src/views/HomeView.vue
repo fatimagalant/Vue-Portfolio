@@ -41,7 +41,7 @@ export default {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans+Mono:wght@200;300&family=Noto+Serif+Display:wght@700&family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
 #Landing {
   background: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.288)),
     url(https://i.postimg.cc/BQwrtsNf/emile-perron-xr-VDYZRGdw4-unsplash.jpg);
@@ -51,8 +51,6 @@ export default {
   color: white;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   gap: 30px;
   font-size: 2rem;
   text-align: center;
@@ -66,16 +64,15 @@ h1 {
   color: white;
   font-size: 5rem;
   font-weight: 5rem;
-  font-family: "Montserrat", sans-serif;
-  padding-top: 10rem;
+font-family: 'Varela Round', sans-serif;
+  padding-top: 6rem;
   display: flex;
   justify-content: center;
-  /* padding-top: 22rem; */
   text-shadow: 2px 2px rgba(0, 0, 0, 0.582);
 }
 h2 {
   font-weight: 4rem;
-  font-family: "Montserrat", sans-serif;
+font-family: 'Varela Round', sans-serif;
   display: flex;
   justify-content: center;
   color: white;

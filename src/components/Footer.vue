@@ -8,8 +8,7 @@
             <h6>About</h6>
             <p class="text-justify">
               I am a prospective fullstack developer. My tech stack consists of
-              HTML5, CSS3, Javascript ES6, VueJs, MYSQL and NodeJS. It has been
-              a challenging journey picking up these skills but it's also helped me take that step to start my web development career.
+              HTML5, CSS3, Javascript ES6, VueJs, MYSQL and NodeJS.
             </p>
           </div>
 

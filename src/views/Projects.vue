@@ -51,8 +51,43 @@ export default {
   data() {
     return {
       projects: [
-        {
+          {
           id: 1,
+          category: "React",
+          title: "React Calculator",
+          imgURL:
+            "https://i.postimg.cc/02fkpgnq/kelly-sikkema-3-Tc-5-LROr-M-unsplash.jpg",
+          description:
+            "This react calculator was a project in learning react.",
+          linkp: "Click on the image to see my project!",
+          link: "https://fatimas-react-calculator.netlify.app/",
+          github: "https://github.com/fatimagalant/react-calculator",
+        },
+         {
+          id: 6,
+          category: "Wordpress",
+          title: "Wordpress Blog",
+          imgURL:
+            "https://i.postimg.cc/j5KFdg1d/Screenshot-2023-07-06-151224.png",
+          description:
+            "This blog was built using wordpress gutenberg theme and building blocks.",
+          linkp: "Click on the image to see my project!",
+          link: "https://dev-wps-blog.pantheonsite.io/",
+        },
+             {
+          id: 7,
+          category: "All",
+          title: "The Aromary - Capstone Project",
+          imgURL:
+            "https://i.postimg.cc/NMHGDpGN/luma-candles-K1-Xi-R-mfpk-unsplash.jpg",
+          description:
+            "This Capstone Project was to showcase all our honed skills in one project.",
+          linkp: "Click on the image to see my project!",
+          link: "https://thearomary.netlify.app/",
+          github: "https://github.com/fatimagalant/ecommerce-app",
+        },
+        {
+          id: 8,
           category: "Vue",
           title: " Art Gallery",
           imgURL:
@@ -64,7 +99,7 @@ export default {
           github: "https://github.com/fatimagalant/art-gallery",
         },
         {
-          id: 2,
+          id: 9,
           category: "Javascript",
           title: "Property Listings",
           imgURL:
@@ -76,7 +111,7 @@ export default {
           github: "https://github.com/fatimagalant/propertylisting",
         },
         {
-          id: 3,
+          id: 10,
           category: "Bootstrap",
           title: "Personal Portfolio",
           imgURL:
@@ -88,7 +123,7 @@ export default {
           github: "https://github.com/fatimagalant/final-portfolio",
         },
         {
-          id: 4,
+          id: 11,
           category: "Javascript",
           title: "BMI Calculator",
           imgURL:
@@ -100,7 +135,7 @@ export default {
           github: "https://github.com/fatimagalant/bmi-calculator",
         },
         {
-          id: 5,
+          id: 12,
           category: "Javascript",
           title: "Calculator",
           imgURL:
@@ -112,7 +147,7 @@ export default {
           github: "https://github.com/fatimagalant/calculator",
         },
         {
-          id: 6,
+          id: 13,
           category: "Javascript",
           title: "To Do List",
           imgURL:
@@ -124,7 +159,7 @@ export default {
           github: "https://github.com/fatimagalant/to-do-list",
         },
         {
-          id: 7,
+          id: 14,
           category: "Javascript",
           title: "Temperature Converter",
           imgURL:
@@ -136,7 +171,7 @@ export default {
           github: "https://github.com/fatimagalant/temperature-converter",
         },
         {
-          id: 8,
+          id: 15,
           category: "Bootstrap",
           title: "Restaurant",
           imgURL:
@@ -192,20 +227,20 @@ export default {
 }
 h1 {
   padding-top: 3rem;
-  font-family: "Montserrat", sans-serif;
+ font-family: 'Varela Round', sans-serif;
   text-align: center;
   font-size: 3rem;
 }
 h2 {
   padding-top: 3rem;
-  font-family: "Montserrat", sans-serif;
+font-family: 'Varela Round', sans-serif;
   text-align: center;
   font-size: 3rem;
 }
 p {
   display: flex;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 *,
@@ -259,7 +294,7 @@ p {
 @media only screen and (max-width: 600px) {
   h1 {
     padding-top: 2rem;
-    font-family: "Montserrat", sans-serif;
+font-family: 'Varela Round', sans-serif;
     text-align: center;
     font-size: 2rem;
   }

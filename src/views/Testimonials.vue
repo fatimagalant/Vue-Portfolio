@@ -129,18 +129,18 @@ export default {
 }
 h1 {
   padding-top: 3rem;
-  font-family: "Montserrat", sans-serif;
+ font-family: 'Varela Round', sans-serif;
   text-align: center;
   font-size: 3rem;
 }
 h2 {
-  font-family: "Montserrat", sans-serif;
+ font-family: 'Varela Round', sans-serif;
 }
 h5 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   text-align: center;
 }
 p {
-  font-family: "Poppins", sans-serif;
+ font-family: 'Varela Round', sans-serif;
 }
 </style>

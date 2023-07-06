@@ -3,8 +3,6 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 p-5">
-          <p class="hover">Hover over me!</p>
-          <p class="click">Click on me!</p>
           <img
             class="img-fluid"
             src="https://i.postimg.cc/j5xxw79g/Copy-of-Fatima-1.jpg"
@@ -13,9 +11,8 @@
         </div>
         <div class="col-md-8 p-5">
           <h1 class="about-heading">About Me</h1>
+          <hr>
           <p>
-           Summary:
-
 Highly motivated and dedicated web developer with a strong passion for continuous learning and staying up-to-date with the latest industry trends. Proficient in a wide range of in-demand skills, including HTML5, CSS3, Bootstrap, JavaScript, Vue.js, MySQL, Node.js, Express.js, and WordPress using Elementor. Currently expanding expertise in PHP, React, Tailwind CSS, SASS, LESS, and Next.js. Committed to creating responsive and accessible web applications that showcase creativity and innovation. Adept at leveraging various technologies to build dynamic and engaging user experiences. Seeking opportunities to contribute to challenging projects and build a diverse portfolio of impressive web applications.
           </p>
           <ul class="pb-5">
@@ -35,6 +32,7 @@ Highly motivated and dedicated web developer with a strong passion for continuou
               >
             </li>
           </ul>
+        </div>
           <h2 class="skills-heading p-3">Technical Skills</h2>
           <div class="container">
             <div class="row p-5">
@@ -94,7 +92,6 @@ Highly motivated and dedicated web developer with a strong passion for continuou
             </div>
           </div>
     </div>
-    </div>
     <Footer />
   </section>
 </template>
@@ -107,20 +104,30 @@ export default {
 };
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans+Mono:wght@200;300&family=Noto+Serif+Display:wght@700&family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
 #About {
   background-color: rgb(41, 41, 41) !important ;
   color: white;
   min-height: 100vh;
 }
 .about-heading {
-  font-family: "Montserrat", sans-serif;
+ font-family: 'Varela Round', sans-serif;
   font-weight: 2rem;
-  font-size: 3rem;
+  font-size: 7rem;
   margin-top: 3rem;
 }
+.about-heading:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #000;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
 .skills-heading {
-  font-family: "Montserrat", sans-serif;
+font-family: 'Varela Round', sans-serif;
   font-size: 2rem;
   padding-top: 5rem;
 }
@@ -136,11 +143,6 @@ export default {
 #pin {
   font-size: 10px;
 }
-.hover {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  padding-top: 5rem;
-}
 a {
   text-decoration: none;
   color: white;
@@ -149,24 +151,11 @@ a:hover {
   color: cornflowerblue;
   text-decoration: none;
 }
-.click {
-  display: none;
-}
-@media screen and (max-width: 1300px) {
-  .hover {
-    display: none;
-  }
-  .click {
-    display: block;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    padding-top: 5rem;
-  }
-}
 .img-fluid {
   padding-bottom: 5rem;
   filter: gray;
   -webkit-filter: grayscale(1);
+  margin-top: 3rem;
 }
 
 img:hover {

@@ -150,31 +150,43 @@ export default {
   background-position: center;
   min-height: 100vh;
   z-index: 100%;
-  font-family: "Karla", sans-serif;
+font-family: 'Varela Round', sans-serif;
   font-weight: 200px;
-  /* padding-top: 9rem; */
 }
 .resume-item{
   margin-top: 20px;
 }
 h2.d-flex {
-  font-family: "Montserrat", sans-serif;
+ font-family: 'Varela Round', sans-serif;
   font-weight: 5rem;
+   font-size: 7rem;
+}
+h2.d-flex:after {
+ font-family: 'Varela Round', sans-serif;
+  font-weight: 5rem;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #000;
+  right: 0;
+  top: 50%;
+  position: absolute;
 }
 p.d-flex {
-  font-family: "Poppins", sans-serif;
+font-family: 'Poppins', sans-serif;
   font-weight: 10rem;
 }
 .resume-title {
-  font-family: "Montserrat", sans-serif;
+font-family: 'Poppins', sans-serif;
   font-weight: 5rem;
 }
 h4 {
-  font-family: "Montserrat", sans-serif;
+ font-family: 'Varela Round', sans-serif;
   font-weight: 6rem;
 }
 li {
-  font-family: "Poppins", sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 ul.timeline {
   list-style-type: none;
