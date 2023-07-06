@@ -92,7 +92,7 @@
                   </div>
                      <div class="resume-item">
                     <h4><strong>Web Developer Intern</strong></h4>
-                    <h5>September 2022 - January 2023</h5>
+                    <h5>September 2022 - January 2023 (5 months)</h5>
                     <p><em>LC Studio, Cape Town (on-site)</em></p>
                     <ul>
                       <li>
