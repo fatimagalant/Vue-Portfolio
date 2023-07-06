@@ -20,13 +20,14 @@
             <div class="col-md-6">
               <ul class="timeline">
                 <li>
-                  <h3 class="resume-title"><strong>Summary</strong></h3>
+                  <h2 class="resume-title"><strong>Summary</strong></h2>
+                  <hr>
                   <div class="resume-item pb-0">
-                    <h4>Fatima Galant</h4>
+                    <h4><strong>Fatima Galant</strong></h4>
                     <p>
                       <em
                         >I am Fatima Galant, a prospective full stack developer.
-                        I'm 19 years old and reside in Cape Town, South
+                        I'm 20 years old and reside in Cape Town, South
                         Africa.</em
                       >
                     </p>
@@ -38,9 +39,10 @@
                   </div>
                 </li>
                 <li>
-                  <h3 class="resume-title"><strong>Education</strong></h3>
+                  <h2 class="resume-title"><strong>Education</strong></h2>
+                  <hr>
                   <div class="resume-item">
-                    <h4>Diploma Matric</h4>
+                    <h4><strong>Diploma Matric</strong></h4>
                     <h5>January 2021- December 2021</h5>
                     <p>
                       <em>Futures Academy</em>
@@ -51,11 +53,11 @@
                     </p>
                   </div>
                   <div class="resume-item">
-                    <h4>Full Stack Web Development Bootcamp</h4>
-                    <h5>March 2022-Present</h5>
+                    <h4><strong>Full Stack Web Development Bootcamp</strong></h4>
+                    <h5>March 2022 - September 2022</h5>
                     <p><em> Life Choices Coding Academy </em></p>
                     <p>
-                      I'm currently at Life Choices Coding Academy, a 12 month
+                      I've studied at Life Choices Coding Academy, a 6 month
                       coding bootcamp which is teaching me full stack web
                       development essential skills. I have built and will
                       continue building many projects with the skills I have
@@ -68,11 +70,44 @@
             <div class="col-md-6">
               <ul class="timeline">
                 <li>
-                  <h3 class="resume-title">
+                  <h2 class="resume-title">
                     <strong>Professional Experience</strong>
-                  </h3>
+                    <hr>
+                  </h2>
+                     <div class="resume-item">
+                    <h4><strong>Software Developer Intern</strong></h4>
+                    <h5>Jan 2023- June 2023 (6 Months)</h5>
+                    <p><em>Code Infinity Pty Ltd, Cape Town (Remote) </em></p>
+                    <ul>
+                      <li>
+                       Upskilling myself by learning PHP, React, Tailwind CSS and working on client projects using Wordpress & Elementor Pro .
+                      </li>
+                      <li>
+                        Collaborated on a project with fellow interns where we developed a project for internal company use.  
+                      </li>
+                      <li>
+                       Attended mandatory training sessions that helped me upskill in new languages and become exposed to different ways and better practices to code.
+                      </li>
+                    </ul>
+                  </div>
+                     <div class="resume-item">
+                    <h4><strong>Web Developer Intern</strong></h4>
+                    <h5>September 2022 - January 2023</h5>
+                    <p><em>LC Studio, Cape Town (on-site)</em></p>
+                    <ul>
+                      <li>
+                        Upskilling myself by learning Wordpress
+                      </li>
+                      <li>
+                       and AWS Cloud Practitioning 
+                      </li>
+                      <li>
+                       as well as working on personal projects using Wordpress (Elementor), and web applications using Vuetify, Quasar Framework. 
+                      </li>
+                    </ul>
+                  </div>
                   <div class="resume-item">
-                    <h4>Volunteer</h4>
+                    <h4><strong>Volunteer</strong></h4>
                     <h5>2014-2018</h5>
                     <p><em>Beitul Aman - Wynberg, Cape Town </em></p>
                     <ul>
@@ -118,6 +153,9 @@ export default {
   font-family: "Karla", sans-serif;
   font-weight: 200px;
   /* padding-top: 9rem; */
+}
+.resume-item{
+  margin-top: 20px;
 }
 h2.d-flex {
   font-family: "Montserrat", sans-serif;
@@ -177,5 +215,8 @@ ul.timeline > li:before {
   background-color: #f0f0f0;
   padding: 20px;
   height: fit-content;
+}
+hr{
+ color: white;
 }
 </style>
