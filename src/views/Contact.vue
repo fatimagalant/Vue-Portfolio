@@ -3,7 +3,7 @@
     <div class="container">
       <h1>Contact Me</h1>
       <div class="row">
-        <div class="col-7 p-3">
+        <div class="col-6 p-3">
           <div class="row">
             <div class="form-container">
               <form action="https://formspree.io/f/moqrgdro" method="POST">
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-6">
           <div class="map-container m-2">
             <iframe
               class="p-2"
@@ -108,8 +108,8 @@ form {
   height: 25rem;
 }
 iframe {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 75%;
 }
 .container {
   z-index: 2;
