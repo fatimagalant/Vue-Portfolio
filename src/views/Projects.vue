@@ -51,8 +51,19 @@ export default {
   data() {
     return {
       projects: [
-          {
+             {
           id: 1,
+          category: "React",
+          title: "React Portfolio",
+          imgURL:
+            "https://i.postimg.cc/FHwrXS6g/joshua-aragon-BMnhuw-FYr7w-unsplash.jpg",
+          description:
+            "Refining my skills in React by recreating my portfolio.",
+          linkp: "Click on the image to see my project!",
+          github: "https://github.com/fatimagalant/React-Portfolio",
+        },
+          {
+          id: 2,
           category: "React",
           title: "React Calculator",
           imgURL:
@@ -64,7 +75,7 @@ export default {
           github: "https://github.com/fatimagalant/react-calculator",
         },
           {
-          id: 2,
+          id: 3,
           category: "Vue",
           title: "Vuetify Healthcare App",
           imgURL:
@@ -76,7 +87,7 @@ export default {
           github: "https://github.com/fatimagalant/vuetify-healthcare-app",
         },
           {
-          id: 3,
+          id: 4,
           category: "Vue",
           title: "Vuetify To Do App",
           imgURL:
@@ -88,7 +99,7 @@ export default {
           github: "https://github.com/fatimagalant/vuetify-todo",
         },
          {
-          id: 6,
+          id: 5,
           category: "Wordpress",
           title: "Wordpress Blog",
           imgURL:
@@ -99,7 +110,7 @@ export default {
           link: "https://dev-wps-blog.pantheonsite.io/",
         },
              {
-          id: 7,
+          id: 6,
           category: "All",
           title: "The Aromary - Capstone Project",
           imgURL:
@@ -111,7 +122,7 @@ export default {
           github: "https://github.com/fatimagalant/ecommerce-app",
         },
         {
-          id: 8,
+          id: 7,
           category: "Vue",
           title: " Art Gallery",
           imgURL:
@@ -123,7 +134,7 @@ export default {
           github: "https://github.com/fatimagalant/art-gallery",
         },
         {
-          id: 9,
+          id: 8,
           category: "Javascript",
           title: "Property Listings",
           imgURL:
@@ -135,7 +146,7 @@ export default {
           github: "https://github.com/fatimagalant/propertylisting",
         },
         {
-          id: 10,
+          id: 9,
           category: "Bootstrap",
           title: "Personal Portfolio",
           imgURL:
@@ -147,7 +158,7 @@ export default {
           github: "https://github.com/fatimagalant/final-portfolio",
         },
         {
-          id: 11,
+          id: 10,
           category: "Javascript",
           title: "BMI Calculator",
           imgURL:
@@ -159,7 +170,7 @@ export default {
           github: "https://github.com/fatimagalant/bmi-calculator",
         },
         {
-          id: 12,
+          id: 11,
           category: "Javascript",
           title: "Calculator",
           imgURL:
@@ -171,7 +182,7 @@ export default {
           github: "https://github.com/fatimagalant/calculator",
         },
         {
-          id: 13,
+          id: 12,
           category: "Javascript",
           title: "To Do List",
           imgURL:
@@ -183,7 +194,7 @@ export default {
           github: "https://github.com/fatimagalant/to-do-list",
         },
         {
-          id: 14,
+          id: 13,
           category: "Javascript",
           title: "Temperature Converter",
           imgURL:
@@ -195,7 +206,7 @@ export default {
           github: "https://github.com/fatimagalant/temperature-converter",
         },
         {
-          id: 15,
+          id: 14,
           category: "Bootstrap",
           title: "Restaurant",
           imgURL:
