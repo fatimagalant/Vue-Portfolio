@@ -131,7 +131,7 @@ h1 {
   padding-top: 3rem;
  font-family: 'Varela Round', sans-serif;
   text-align: center;
-  font-size: 3rem;
+  font-size: 6rem;
 }
 h2 {
  font-family: 'Varela Round', sans-serif;
