@@ -3,6 +3,27 @@
     <div class="container">
       <h1>Contact Me</h1>
       <div class="row">
+        <ul class="pb-5">
+          <li>
+            you can reach out to me via email :
+
+            <a href="mailto:fatimagalant03@gmail.com"
+              >fatimagalant03@gmail.com</a
+            >
+          </li>
+          <li>or via phone : <a href="tel:0662091181">+27662091181</a></li>
+          <li>
+            connect with me on
+
+            <a
+              href="https://www.linkedin.com/in/fatima-g-778944228/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="row">
         <div class="col-6 p-3">
           <div class="row">
             <div class="form-container">
@@ -111,13 +132,26 @@ iframe {
   width: 90%;
   height: 75%;
 }
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+a {
+  color: #545657;
+  text-decoration: none;
+}
+a:hover {
+  color: #33657e;
+  text-decoration: none;
+}
 .container {
   z-index: 2;
 }
 .container[data-v-df212a54] {
   z-index: 2;
   padding-bottom: 193px;
-
 }
 @media screen and (max-width: 935px) {
   .col-6 {
@@ -152,7 +186,7 @@ iframe {
   -moz-appearance: none;
   appearance: none;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 button {
   display: flex;
@@ -174,20 +208,20 @@ button {
   -moz-appearance: none;
   appearance: none;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 .address {
   display: none;
 }
 h1 {
   padding-top: 70px;
-font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   align-content: center;
   justify-content: center;
   align-items: center;
   display: grid;
   padding-bottom: 20px;
-    font-size: 7rem;
+  font-size: 7rem;
 }
 h1:after {
   content: "";
@@ -202,6 +236,16 @@ iframe {
     width: 100%;
     margin-top: 2rem;
     height: 20rem;
+  }
+  h1 {
+    padding-top: 70px;
+    font-family: "Varela Round", sans-serif;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding-bottom: 20px;
+    font-size: 3rem;
   }
 }
 </style>
