@@ -69,7 +69,7 @@ Highly motivated and dedicated web developer with a strong passion for continuou
                   ></i>
             </div>
                       </div>
-            <div class="row p-5">
+            <div id="skills-row" class="row p-5 mb-9">
                     <div class="col-md-2 p-1">
                   <i class="fa-brands fa-node" style="color: green"></i>
               </div>
@@ -116,20 +116,10 @@ export default {
   font-size: 7rem;
   margin-top: 3rem;
 }
-.about-heading:after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 2px;
-  background: #000;
-  right: 0;
-  top: 50%;
-  position: absolute;
-}
 .skills-heading {
 font-family: 'Varela Round', sans-serif;
   font-size: 2rem;
-  padding-top: 5rem;
+  padding-top: 5rem !important;
 }
 .fa-brands,
 .fab {
@@ -161,5 +151,8 @@ a:hover {
 img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
+}
+#skills-row{
+  margin-bottom: 9rem !important;
 }
 </style>

@@ -14,7 +14,7 @@
               <img id="img" v-bind:src="project.imgURL" alt="Avatar" />
             </div>
             <div class="flip-card-back">
-              <h1>{{ project.title }}</h1>
+              <h2>{{ project.title }}</h2>
               <p class="text-muted">{{ project.category }}</p>
               <p id="project-desc" class="p-2">{{ project.description }}</p>
               <div class="card-container">
@@ -62,6 +62,30 @@ export default {
           linkp: "Click on the image to see my project!",
           link: "https://fatimas-react-calculator.netlify.app/",
           github: "https://github.com/fatimagalant/react-calculator",
+        },
+          {
+          id: 2,
+          category: "Vue",
+          title: "Vuetify Healthcare App",
+          imgURL:
+            "https://i.postimg.cc/vmFbdphB/hush-naidoo-jade-photography-yo01-Z-9-HQAw-unsplash.jpg",
+          description:
+            "This healthcare app was created using Vuetify.",
+          linkp: "Click on the image to see my project!",
+          link: "https://vuetify-healthcare-app.netlify.app/",
+          github: "https://github.com/fatimagalant/vuetify-healthcare-app",
+        },
+          {
+          id: 3,
+          category: "Vue",
+          title: "Vuetify To Do App",
+          imgURL:
+            "https://i.postimg.cc/YSnRFwP2/annie-spratt-3sgir4-Er-K5-U-unsplash.jpg",
+          description:
+            "This to-do app project was created using Vuetify.",
+          linkp: "Click on the image to see my project!",
+          link: "https://vue-to-doapp.netlify.app/",
+          github: "https://github.com/fatimagalant/vuetify-todo",
         },
          {
           id: 6,
@@ -229,7 +253,7 @@ h1 {
   padding-top: 3rem;
  font-family: 'Varela Round', sans-serif;
   text-align: center;
-  font-size: 3rem;
+  font-size: 7rem;
 }
 h2 {
   padding-top: 3rem;

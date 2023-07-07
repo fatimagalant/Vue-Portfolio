@@ -1,7 +1,7 @@
 <template>
   <section id="resume" class="bg-dark test-light" data-aos="fade-up">
     <div
-      class="container bg-dark text-light aos-init aos-animate"
+      class="container bg-dark aos-init aos-animate"
       data-aos="fade-up"
     >
       <div class="section-title">
@@ -14,7 +14,6 @@
           information of benefit to you to get to know about my professional
           background.
         </p>
-        <!-- <div id="resume-container" class="container mt-5 mb-5 container aos-init aos-animate" data-aos="fade-up"> -->
         <div class="container bg-dark text-light mt-5 mb-5">
           <div class="row">
             <div class="col-md-6">
@@ -145,21 +144,23 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans+Mono:wght@200;300&family=Noto+Serif+Display:wght@700&family=Poppins:wght@200&display=swap");
 #resume {
-  background-color: white;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   z-index: 100%;
 font-family: 'Varela Round', sans-serif;
   font-weight: 200px;
+  color: rgb(212, 212, 212);
 }
 .resume-item{
   margin-top: 20px;
+    color: rgb(212, 212, 212);
 }
 h2.d-flex {
  font-family: 'Varela Round', sans-serif;
   font-weight: 5rem;
    font-size: 7rem;
+     color: rgb(212, 212, 212);
 }
 h2.d-flex:after {
  font-family: 'Varela Round', sans-serif;
@@ -172,6 +173,7 @@ h2.d-flex:after {
   right: 0;
   top: 50%;
   position: absolute;
+    color: rgb(212, 212, 212);
 }
 p.d-flex {
 font-family: 'Poppins', sans-serif;
@@ -180,10 +182,12 @@ font-family: 'Poppins', sans-serif;
 .resume-title {
 font-family: 'Poppins', sans-serif;
   font-weight: 5rem;
+    color: rgb(212, 212, 212);
 }
 h4 {
  font-family: 'Varela Round', sans-serif;
   font-weight: 6rem;
+    color: rgb(212, 212, 212);
 }
 li {
 font-family: 'Poppins', sans-serif;
@@ -229,6 +233,6 @@ ul.timeline > li:before {
   height: fit-content;
 }
 hr{
- color: white;
+ color: rgb(152, 152, 152);
 }
 </style>
